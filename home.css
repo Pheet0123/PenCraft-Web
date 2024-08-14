@@ -11,6 +11,8 @@ img{
     height: 70px;
 }
 .nav_bar{
+    top: 0;
+    position: sticky;
     background: #473757;
     display: flex;
     align-content: center;

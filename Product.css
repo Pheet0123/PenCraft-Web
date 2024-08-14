@@ -11,6 +11,8 @@ img{
     height: 70px;
 }
 .nav_bar{
+    top: 0;
+    position: sticky;
     background: #473757;
     display: flex;
     align-content: center;
@@ -142,7 +144,12 @@ img{
 .btn1:hover{
     border: solid #D3B3F1 6px;
 }
+.btn1:active{
+    border: solid rgb(211, 179, 221) 6px;
+    background: rgb(255, 255, 245);
 
+
+}
 
 .img_pro{
     padding: 40px 0px ;
@@ -212,6 +219,10 @@ img{
     border: solid 6px #EE92A9;
 }
 
+.btn_Custom button:active{
+    background: rgb(211, 179, 221);
+    border: solid 6px rgb(238, 146, 149);
+}
 .btn_Custom button:active{
     background: rgb(211, 179, 221);
     border: solid 6px rgb(238, 146, 129);
