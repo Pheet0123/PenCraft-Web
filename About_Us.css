@@ -45,6 +45,7 @@ img{
 
 .HP:hover{
     color: #EE92A9;
+    transition: 0.5s;
 }
 
 
@@ -52,7 +53,7 @@ img{
 
 
 .info{
-    height: 110vh;
+    height: 85vh;
     text-align: center;
     align-content: center;
     justify-content: center;
@@ -73,17 +74,42 @@ img{
 .info img{
     border-radius: 40px;
     background: #000;
-    width: 754px;
-    height: 750px;
+    width: 500px;
+    height: 500px;
 }
 
+.con{
+    height: 120px;
+    background: #57436b;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+}
+.Bd {
+    background: #69527f;
+    padding: 20px;
+    margin: 15px 30px;
+    width: 50px;
+    height: 50px;
+    border-radius: 15px;
 
-
-
-
-
-
-
+}
+.Bd:hover{
+    transition: 1s;
+    background: #FF3366;
+}
+.Bd a{
+    margin: 0;
+    padding: 0 0 10px 0;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    font-size: 55px;
+    text-decoration: none;
+    color: white;
+}
 
 .end_home{
     padding: 0 30px ;

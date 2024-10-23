@@ -45,6 +45,7 @@ img{
 
 .HP:hover{
     color: #EE92A9;
+    transition: 0.5s;
 }
 
 
@@ -87,6 +88,7 @@ img{
 }
 
 .btn_buy:hover{
+    
     border: 2px solid #8D62B8;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
