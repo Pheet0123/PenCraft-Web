@@ -121,11 +121,12 @@
     font-size: 32px;
     background: #EE92A9;
     color: #363636;
+    transition: 0.2s;
 }
 
 .btn_buy:hover{
     
-    border: 2px solid #8D62B8;
+    border: 3px solid #8D62B8;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 div .img_buynow{
@@ -231,6 +232,7 @@ div .img_buynow{
     border-radius: 15px;
     font-size: 32px;
     background: #EE92A9;
+    transition: 0.2s;
 }
 
 .btn_P button:hover{
