@@ -48,12 +48,9 @@ document.getElementById("blue_").addEventListener("click",()=>{
 // ตั้งค่ารูปเล็ก
 const setMiniImg = (array)=>{
   for (let i = 1 ; i <= 4; i++){
-    let imgs = document.getElementsByClassName("img_mim_"+i)
-    for(let element of  imgs){
-      element.src = array[i-1]
-      showpen.src = array[0]
-    }
-    
+    let img = document.getElementById("img_mim_"+i)
+    img.src = array[i-1]
+    showpen.src = array[0]
   }
   
 }
@@ -61,7 +58,7 @@ const setMiniImg = (array)=>{
 // ฟังชั้นการแสดงรูปให้ใหญ่
 const setEventClick = ()=>{
   const miniImgBtm = document.getElementsByClassName("img_mim")
-  for(let i = 0 ; i<8 ; i++){
+  for(let i = 0 ; i<4 ; i++){
     miniImgBtm[i].addEventListener("click",()=>{
       showpen.src = miniImgBtm[i].children[0].src
     })
