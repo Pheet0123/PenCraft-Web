@@ -98,7 +98,7 @@ document.getElementById("btn_Custom_3").addEventListener("click",()=>{
 const  alertBuy = document.getElementById("Buynow")
 alertBuy.addEventListener("click",()=>{
 
-alert("Fake Buying เว็บไซต์นี้กำลังอยู่ในระบบเทสระบบยังไม่สามารถซื้อของได้จริงๆ ยังอยู่ในขั้นตอนการพัฒนา")
+alert("เว็บไซต์นี้ยังอยู่ในขั้นตอนการพัฒนาและทดสอบระบบ การทำรายการสั่งซื้อสินค้าจึงยังไม่สามารถดำเนินการได้จริงในขณะนี้ เรากำลังปรับปรุงและพัฒนาเพื่อให้สามารถให้บริการที่สมบูรณ์แบบในอนาคต")
 
 });
 
