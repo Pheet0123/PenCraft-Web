@@ -31,8 +31,6 @@
     
 }
 .ul1{
-    top: 0;
-    position: sticky;
     background: #473757;
     display: flex;
     align-content: center;
@@ -50,6 +48,11 @@
     cursor: pointer;
     margin: 30px;
     color: #BBBBBB;
+}
+.ggg{
+    margin: 0;
+    top:0;
+    position: sticky;
 }
 .h1j{
         font-size:29px ;
@@ -70,6 +73,9 @@
     margin: 10px 0 0 0 ;
     color: #FFFFFF;
     display: none;
+}
+.buy_box{
+    margin: 0px;
 }
 .HP{
     color: #BBBBBB;
@@ -102,7 +108,10 @@
 }
 .Buynow_topic div{
     padding: 15px;
-    margin: 30px 0px 0px 0px;
+    margin: 20px 0px 0px 0px;
+}
+.buy_box{
+    margin: 0;
 }
 .Buynow > div h1 {
     font-size: 96px;
@@ -122,6 +131,7 @@
     background: #EE92A9;
     color: #363636;
     transition: 0.2s;
+    font-weight:  400;
 }
 
 .btn_buy:hover{
@@ -160,10 +170,16 @@ div .img_buynow{
     display: flex;
     gap: 10px;
     flex-direction: column;
+    align-items: center;
     width: 134px;
     height: fit-content;
 }
+.ability img{
+    margin-bottom: 10px;
+    width: 170px;
+    height: 170px;
 
+ }
 .ab > div{
     display: flex;
     align-items: center;
@@ -179,16 +195,18 @@ div .img_buynow{
 }
 .Tab {
     padding: 0px;
-    margin: 0px;
-    width: 150px;
-    font-size: 20px;
+    margin-top: 10px;
+    width: 200px;
+    font-size: 25px;
     text-align: center;
+     
 }
 .lore{
     display: flex;
     align-content: center;
     justify-content: space-between;
-    height: 424px;
+    text-align: center;
+    height:100%;
     background: #F5F5F5;
     padding: 0 60px ;
 
@@ -199,42 +217,50 @@ div .img_buynow{
     height: 309px;
     background: #363636;
     border-radius: 20px;
+    margin: 20px 0;
 }
 
-.lore div {
-    margin: 50px 0 0 0 ;
-}
+
 .lore_text{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
     text-align: center;
 
 }
 .lore_text h1 {
     margin: 20px;
-    font-size: 36px;
+    font-size: 38px;
     text-align: center;
 }
 .lore_text p{
+    
     width: 100%;
-    font-size: 20px;
+    font-size: 28px;
     max-width: 85%;
-    margin: 0 0 0 30px;
+   
 }
 .btn_P{
     height: 233px;
-    text-align: center;
-    padding: 0 30px ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    padding: 20px 30px ;
     background: #D3B3F1;
 }
 
 .btn_P button{
-    margin: 80px 0 0 0;
     width: 340px;
-    height: 57px;
+    height: 80px;
     border: none;
     border-radius: 15px;
     font-size: 32px;
     background: #EE92A9;
     transition: 0.2s;
+    font-weight: 400;
 }
 
 .btn_P button:hover{
@@ -276,7 +302,7 @@ text-decoration: none;
 }
 
 /* สำหรับขนาดหน้าจอเล็ก (มือถือ) */
-@media (max-width: 799px) {
+@media (max-width: 867px) {
     .nav_bar {
         flex-direction: column;
         padding: 10px;
@@ -358,13 +384,19 @@ text-decoration: none;
         height: auto;
         padding: 20px;
     }
+    .ability img{
+        width: 120px;
+        height: 120px;
 
+     }
     .ab {
         width: 100%;
         align-items: center;
         margin-bottom: 20px;
     }
-
+    .ab p{
+        font-size: 20px;
+    }
     .lore {
         flex-direction: column;
         padding: 20px;
@@ -372,6 +404,7 @@ text-decoration: none;
         justify-content: center;
         align-items: center;
     }
+
     .lore_text{
         width: 100%;
     }
@@ -386,7 +419,7 @@ text-decoration: none;
     .lore_text h1 {
         font-size: 28px;
         text-align: center;
-        margin: 0;
+        margin: 0;padding: 10px 0;
     }
 
     .lore_text p {
@@ -405,15 +438,25 @@ text-decoration: none;
 
     .btn_P {
         padding: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 100%;
         text-align: center;
     }
 
     .btn_P button {
-        width: 60%;
-        height: 50px;
+        text-align: center;
+        margin: 0;
+        padding: 0 50px;
+        width: 100%;
+        height: 60px;
         font-size: 24px;
     }
-
+    .btn_P p{
+        font-size: 24px;
+    }
     .end_home {
         
         text-align: center;
@@ -517,11 +560,19 @@ text-decoration: none;
         height: auto;
         padding: 20px;
     }
+    .ability img{
+        width: 90px;
+        height: 90px;
 
+     }
     .ab {
+       
         width: 100%;
         align-items: center;
         margin-bottom: 20px;
+    }
+    .ab p{
+        font-size: 16px;
     }
 
     .lore {
@@ -541,6 +592,7 @@ text-decoration: none;
     }
     .lore_text h1 {
         font-size: 28px;
+        padding: 10px 0;
         text-align: center;
     }
 
@@ -561,11 +613,15 @@ text-decoration: none;
     }
 
     .btn_P button {
-        width: 60%;
+        text-align: center;
+        padding: 10px;
+        width: 100%;
         height: 50px;
         font-size: 24px;
     }
-
+    .btn_P p{
+        font-size: 19px;
+    }
     .end_home {
         
         text-align: center;
